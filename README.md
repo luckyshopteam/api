@@ -1,5 +1,10 @@
 LuckyShop API
 -------------
+Установка
+---------
+```
+composer require luckyshopteam/api @dev
+```
 
 Данные классы предназначены для облегчения работы вебмастеров с API сайта luckyshop.ru
 
