@@ -110,7 +110,7 @@ class Request
         if ($requestParams) {
             $url .= '&' . http_build_query($requestParams);
         }
-        \yii\helpers\VarDumper::dump($url, 10, true); die();
+
         $curl = curl_init($url);
         if ($method == 'POST') {
             curl_setopt($curl, CURLOPT_POST, true);
