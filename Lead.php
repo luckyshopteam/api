@@ -111,10 +111,8 @@ class Lead implements LeadInterface
     }
 
     /**
-     * Undocumented method
-     *
-     * @param mixed $value Undocumented param
-     * @return string the result
+     * Validates user userAgent
+     * @return boolean true if validation is success.
      */
     public function validateUserAgent()
     {
@@ -124,10 +122,8 @@ class Lead implements LeadInterface
     }
 
     /**
-     * Undocumented method
-     *
-     * @param mixed $value Undocumented param
-     * @return string the result
+     * Validates campaignHash
+     * @return boolean true if validation is success.
      */
     public function validateCampaignHash()
     {
@@ -139,7 +135,7 @@ class Lead implements LeadInterface
     /**
      * Checks whether attribute is empty and adds error message.
      * @param string $attributeName
-     * @return boolean
+     * @return boolean true if empty.
      */
     protected function isEmpty($attributeName)
     {
