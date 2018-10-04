@@ -1,6 +1,5 @@
 {
     "name": "luckyshopteam/api",
-    "type": "php fules",
     "description": "Extension used for working with luckyshop api",
     "keywords": ["php", "luckyshop", "api"],
     "homepage": "https://github.com/luckyshopteam",
